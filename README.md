@@ -1,4 +1,4 @@
-# project
+# project https://olgakraven.github.io/VO.JSFWEB-2025/
 Lab 1 - Done
 <br>
 Lab 2 -
