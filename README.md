@@ -1,4 +1,5 @@
-e# project https://olgakraven.github.io/VO.JSFWEB-2025/
+# project https://olgakraven.github.io/VO.JSFWEB-2025/
+<br>
 Lab 1 - Done
 <br>
 Lab 2 - Done
