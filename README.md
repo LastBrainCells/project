@@ -3,7 +3,7 @@ Lab 1 - Done
 <br>
 Lab 2 - Done
 <br>
-Lab 3 -
+Lab 3 - Done
 <br>
 Lab 4 -
 <br>
