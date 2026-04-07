@@ -8,7 +8,7 @@ console.log(isValidDateYMD("18-02-2026"));
 console.log(isValidDateYMD(" "));
 
 function isValidTitle(s){
-    const reTitle = /\w/;
+    const reTitle = /[<>{};]/;
     return reTitle.test(s);
 }
 
