@@ -29,5 +29,5 @@ function normalizeSpaces(s){
 console.log(normalizeSpaces(" A B\t\tC "));
 
 function validateRequired(value, fieldName){
-    
+
 }
