@@ -6,3 +6,12 @@ function isValidDateYMD(s){
 console.log(isValidDateYMD("2026-02-18"));
 console.log(isValidDateYMD("18-02-2026"));
 console.log(isValidDateYMD(" "));
+
+function isValidTitle(s){
+    const reTitle = /\w/;
+    return reTitle.test(s);
+}
+
+console.log(isValidTitle("Hello!"));
+console.log(isValidTitle("Hell<>"));
+console.log(isValidTitle("Hello;"));
