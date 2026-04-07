@@ -8,10 +8,26 @@ console.log(isValidDateYMD("18-02-2026"));
 console.log(isValidDateYMD(" "));
 
 function isValidTitle(s){
-    const reTitle = /\w/;
-    return reTitle.test(s);
+    const reTitle = /[<>{};]/;
+    return !reTitle.test(s);
 }
 
 console.log(isValidTitle("Hello!"));
 console.log(isValidTitle("Hell<>"));
 console.log(isValidTitle("Hello;"));
+
+function extractIds(text){
+    return text.match(/\d+/g);
+}
+
+console.log(extractIds("id=5; id=12; id=30"));
+
+function normalizeSpaces(s){
+    return s.replace(/\s+/g, " ").trim();
+}
+
+console.log(normalizeSpaces(" A B\t\tC "));
+
+function validateRequired(value, fieldName){
+    
+}
