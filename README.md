@@ -3,10 +3,8 @@ Lab 1 - Done
 <br>
 Lab 2 - Done
 <br>
-Lab 3 - Done
+Lab 3 - Done 
 <br>
 Lab 4 -
 <br>
-Lab 5 -
-<br>
-Lab 6 -
+Bonus project - done (Need confirmation)
