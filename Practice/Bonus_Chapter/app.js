@@ -121,21 +121,6 @@ function renderAll() {
   saveToStorage(); // Сохраняем после каждой перерисовки
 }
 
-// ========== ЗАПУСК ==========
-document.addEventListener('DOMContentLoaded', function() {
-  // Загружаем сохранённые данные (если есть)
-  loadFromStorage();
-
-  // Подключаем обработчики
-  document.getElementById('process-form')
-    .addEventListener('submit', handleAddProcess);
-  document.getElementById('table-body')
-    .addEventListener('click', handleDelete);
-
-  // Первичная отрисовка
-  renderAll();
-});
-
 // Внутри renderMatrix(), после распределения процессов:
 for (var i = 1; i <= 4; i++) {
   var zoneEl = document.getElementById('zone-' + i);
